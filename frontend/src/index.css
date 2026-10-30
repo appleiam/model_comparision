@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slot-a: #38bdf8;
+  --color-slot-b: #c084fc;
+}
+
+body { font-family: ui-sans-serif, system-ui, "Segoe UI", sans-serif; font-size: 13px; }
+.card { @apply rounded-md border border-zinc-800 bg-zinc-900 p-3; }
+.btn { @apply rounded border border-zinc-700 bg-zinc-800 px-2.5 py-1 text-xs font-medium hover:bg-zinc-700 disabled:opacity-40 disabled:cursor-not-allowed; }
+.btn-primary { @apply rounded bg-sky-600 px-3 py-1 text-xs font-semibold text-white hover:bg-sky-500 disabled:opacity-40 disabled:cursor-not-allowed; }
+.input { @apply rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs outline-none focus:border-sky-500; }
+.label { @apply text-[11px] uppercase tracking-wide text-zinc-500; }
+table.dense th { @apply px-2 py-1 text-left text-[11px] font-medium uppercase tracking-wide text-zinc-500 border-b border-zinc-800; }
+table.dense td { @apply px-2 py-1 border-b border-zinc-900; }

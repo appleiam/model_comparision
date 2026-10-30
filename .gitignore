@@ -1,0 +1,8 @@
+backend/.venv/
+backend/weights/*.pt
+frontend/node_modules/
+frontend/dist/
+data/
+__pycache__/
+.pytest_cache/
+*.tsbuildinfo
